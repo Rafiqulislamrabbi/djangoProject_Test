@@ -1,3 +1,2 @@
 FROM nginx
-COPY source dest
-COPY source dest
+COPY . /usr/share/nginx/html
